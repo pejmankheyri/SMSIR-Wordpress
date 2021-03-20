@@ -4,7 +4,7 @@ author: pejmankheyri@gmail.com
 Contributors: pejmankheyri
 author EMAIL: pejmankheyri@gmail.com
 plugin URI: https://github.com/pejmankheyri/SMSIR-Wordpress
-Tags: wordpress, sms, sms notifications, verification, sms.ir, ipe.ir
+Tags: wordpress, sms, sms notifications, verification
 Requires at least: 4.0
 Tested up to: 5.6.1
 License: MIT
