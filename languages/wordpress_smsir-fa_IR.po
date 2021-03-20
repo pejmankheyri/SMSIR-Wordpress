@@ -1,0 +1,1378 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wordpress SMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-01 15:31+0330\n"
+"PO-Revision-Date: 2019-09-25 11:35+0330\n"
+"Last-Translator: Ide Pardazan Holding\n"
+"Language-Team: IDE Developers\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: /var/www/html/wordpress/wp-content/plugins/WordpressPluginSMSIR-V3.1\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-SearchPath-0: /var/www/html/wordpress/wp-content/plugins/WordpressPluginSMSIR-V3.1\n"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/different-versions.php:4
+msgid "Upgrade to pro version"
+msgstr "ارتقاء به نسخه‌ی حرفه‌ای"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/admin/wordpress_smsir-export.php:5
+msgid "Access denied!"
+msgstr "دسترسی غیرمجاز!"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/admin/wordpress_smsir-export.php:49
+msgid "Please select the desired items."
+msgstr "لطفاً یکم آیتم را انتخاب کنید."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/admin/wordpress_smsir-features.php:21
+#, php-format
+msgid "Hi %s, the %s post suggested to you by %s. url: %s"
+msgstr "سلام %s, مطلب %s از طرف %s به شما پیشنهاد شده است. آدرس: %s"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/admin/wordpress_smsir-features.php:24
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/send-sms.php:85
+msgid "SMS was sent with success"
+msgstr "پیامک با موفقیت ارسال شد"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/admin/wordpress_smsir-features.php:27
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/admin/wordpress_smsir-subscribe.php:81
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:372
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:451
+msgid "Please enter a valid mobile number"
+msgstr "شماره موبایل معتبر نیست"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/admin/wordpress_smsir-features.php:30
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/admin/wordpress_smsir-subscribe-activation.php:24
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/admin/wordpress_smsir-subscribe.php:84
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:375
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:454
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:505
+msgid "Please complete all fields"
+msgstr "لطفا تمامی فیلدها را کامل کنید"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/admin/wordpress_smsir-features.php:44
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:88
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:144
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:185
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:256
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/wordpress_smsir-subscribe-form.php:84
+msgid "Mobile"
+msgstr "موبایل"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/admin/wordpress_smsir-features.php:53
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/setting.php:14
+msgid "Your Mobile Number"
+msgstr "شماره موبایل شما"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/admin/wordpress_smsir-features.php:65
+msgid "<strong>ERROR</strong>: You must include a mobile number."
+msgstr "<strong>خطا</strong>: شماره موبایل خود را بنویسید."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/admin/wordpress_smsir-features.php:71
+msgid "<strong>ERROR</strong>: This mobile number is already exist."
+msgstr ""
+"<strong>خطا</strong>: کاربری با این شماره موبایل قبلا در سیستم ثبت شده است."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/admin/wordpress_smsir-features.php:140
+msgid "<strong>ERROR</strong>: verification sending unsuccessful."
+msgstr "<strong>خطا</strong>: ارسال کد فعالسازی با خطا مواجه شده است."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/admin/wordpress_smsir-features.php:183
+msgid "<strong>ERROR</strong>: verification code required."
+msgstr "<strong>خطا</strong>: کد فعالسازی یک فیلد ضروری است."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/admin/wordpress_smsir-features.php:190
+msgid "<strong>ERROR</strong>: No user for check verification."
+msgstr "<strong>خطا</strong>: کاربری برای چک کردن وضعیت یافت نشد."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/admin/wordpress_smsir-features.php:206
+msgid "<strong>ERROR</strong>: Verification code is not valid."
+msgstr "<strong>خطا</strong>: کد فعالسازی معتبر نیست."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/admin/wordpress_smsir-features.php:88
+msgid "Verification"
+msgstr "فعالسازی"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/admin/wordpress_smsir-features.php:89
+msgid "123456"
+msgstr "123456"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/admin/wordpress_smsir-features.php:96
+msgid "verify"
+msgstr "تایید"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/admin/wordpress_smsir-features.php:104
+msgid "resend"
+msgstr "ارسال مجدد"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/verifications.php:47
+msgid "pending"
+msgstr "غیرفعال"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/verifications.php:47
+msgid "active"
+msgstr "فعال"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/verifications.php:2
+msgid "Posted verification SMS"
+msgstr "پیامک های فعالسازی ارسال شده"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/verifications.php:7
+msgid "User name"
+msgstr "نام کاربری"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/verifications.php:10
+msgid "Verification code"
+msgstr "کد فعالسازی"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1.php:38
+msgid "Verifications"
+msgstr "فعالسازی ها"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:273
+msgid "Input Datas Guidance"
+msgstr "راهنمای استفاده از داده های ورودی"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:275
+msgid "Input Datas Guidance Description"
+msgstr "به عنوان مثال برای ثبت سفارش می توانید از این متن استفاده کنید : <br> سفارش جدید به شماره %order_id% در سیستم ثبت شد."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:93
+msgid "Send Verification Code"
+msgstr "ارسال کد فعالسازی (برای استفاده کردن از این امکان باید ماژول ارسال سریع پنل شما در sms.ir فعال باشد.)"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:94
+msgid "Sends Verification Code for users validation."
+msgstr "با فعالسازی این قسمت کاربران هنگام ثبت نام باید شماره موبایل خود را توسط کدی که برایشان ارسال می شود فعالسازی کنند. برای این منظور شما باید گزینه افزودن فیلد شماره موبایل از تب امکانات را فعال نمایید."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/admin/wordpress_smsir-newslleter.php:5
+msgid "Subscribe SMS"
+msgstr "اشتراک پیامک"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/admin/wordpress_smsir-notifications.php:21
+#, php-format
+msgid "WordPress %s is available! Please update now"
+msgstr "وردپرس %s در دسترس است! لطفا به‌روز رسانی کنید"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/admin/wordpress_smsir-subscribe-activation.php:21
+msgid "Security Code is wrong"
+msgstr "کد امنیتی اشتباه است"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/admin/wordpress_smsir-subscribe.php:38
+msgid "Your activation code"
+msgstr "کدفعال سازی شما"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/admin/wordpress_smsir-subscribe.php:73
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:424
+msgid "Nothing found!"
+msgstr "چیزی یافت نشد!"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/admin/wordpress_smsir-subscribe.php:78
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:369
+msgid "Phone number is repeated"
+msgstr "شماره موبایل تکراری است"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/about.php:2
+msgid "About Plugin"
+msgstr "درباره پلاگین"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/about.php:3
+#, php-format
+msgid "Version plugin: %s"
+msgstr "نگارش افزونه: %s"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/about.php:4
+msgid ""
+"The first free WordPress Iranian plugin that works on Web service messages."
+msgstr "افزونه ارسال پیامک وردپرس برای ارسال از طریق وب سرویس sms.ir"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/about.php:5
+#, php-format
+msgid "This plugin created by %s from %s gorup"
+msgstr "این افزونه توسط %s از گروه %s ساخته شده است."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/about.php:6
+msgid "do you have problem with plugin?"
+msgstr "آیا مشکلی دارید؟"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/about.php:7
+#, php-format
+msgid "if you have you can tell your problem in <a href=\"%s\">forum</a>."
+msgstr ""
+"اگر در رابطه با افزونه مشکلی دارید، در <a href=\"%s\">انجمن</a> مطرح کنید."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/about.php:9
+msgid "are you a translator?"
+msgstr "آیا مترجم هستید؟"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/about.php:10
+#, php-format
+msgid "please send your translation to %s."
+msgstr "فایل‌های زبان را به %s ارسال کنید."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/about.php:12
+msgid "you want to know about how to add your web service to this plugin?"
+msgstr "چگونه وب سرویس را به این افزونه اضافه کنم؟"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/about.php:13
+#, php-format
+msgid "to adding your web service please contact with %s."
+msgstr "برای اضافه کردن وب‌سرویس خود با %s تماس بگیرید."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/about.php:15
+msgid "Donate in plugin."
+msgstr "حمایت مالی به افزونه"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/about.php:26
+msgid "Donate"
+msgstr "حمایت"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/export.php:2
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/export.php:23
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:42
+msgid "Export"
+msgstr "اکسپورت"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/export.php:7
+msgid "Export To"
+msgstr "اکسپورت به"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/export.php:12
+msgid "Please select."
+msgstr "لطفا انتخاب کنید."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/export.php:18
+msgid "Select the output file type."
+msgstr "لطفاً نوع فایل خروجی را انتخاب کنید."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/export.php:27
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/import.php:22
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:287
+msgid "Back"
+msgstr "بازگشت"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/features.php:3
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/newsletter.php:11
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:31
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/setting.php:3
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:30
+msgid "General"
+msgstr "عمومی"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/features.php:4
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/newsletter.php:12
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:32
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/setting.php:4
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:31
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:41
+msgid "Web Service"
+msgstr "وب سرویس"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/features.php:5
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/newsletter.php:13
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:33
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/setting.php:5
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:32
+msgid "Newsletter"
+msgstr "خبرنامه"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/features.php:6
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/newsletter.php:14
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:34
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/setting.php:6
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:33
+msgid "Features"
+msgstr "امکانات"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/features.php:7
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/newsletter.php:15
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:35
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/setting.php:7
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:34
+msgid "Notification"
+msgstr "اطلاع رسانی"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/features.php:14
+msgid "Suggested post by SMS?"
+msgstr "پیشنهاد نوشته از طریق پیامک؟"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/features.php:17
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/features.php:25
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/newsletter.php:25
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/newsletter.php:33
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/newsletter.php:41
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/newsletter.php:67
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:49
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:76
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:85
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:123
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:153
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:183
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:196
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:225
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:157
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:275
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:197
+msgid "Active"
+msgstr "فعال"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/features.php:22
+msgid "Add Mobile number field?"
+msgstr "افزودن فیلد شماره موبایل؟"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/features.php:26
+msgid "Add Mobile number to user profile and register form."
+msgstr "افزودن فیلد شماره موبایل به شناسنامه کاربری و فرم نام‌نویسی."
+
+msgid "If this option activated users mobile numbers must be unique"
+msgstr ""
+"درصورت فعال بودن این گزینه شماره موبایل هایی که کاربران موقع ثبت نام وارد می "
+"کنند باید یکتا باشد."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/features.php:35
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/newsletter.php:77
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:247
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/setting.php:33
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:222
+msgid "Update"
+msgstr "ذخیره تغییرات"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/import.php:2
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:41
+msgid "Import"
+msgstr "ایمپورت"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/import.php:7
+#, php-format
+msgid ""
+"<code>.xls</code> is the only acceptable format. Please see <a href=\"%s"
+"\">this image</a> to show a standard xls import file."
+msgstr ""
+"فرمت <code dir=\"ltr\">.xls</code> تنها فرمت قابل قبول برای ایمپورت است. <a "
+"href=\"%s\">این تصویر</a> را برای ساختار استاندارد ایمپورت مشاهده کنید."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/import.php:11
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:23
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:89
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:145
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:190
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/wordpress_smsir-subscribe-form.php:89
+msgid "Group"
+msgstr "گروه"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/import.php:19
+msgid "Upload"
+msgstr "بارگزاری"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/meta-box.php:2
+msgid "Send this post to subscribers?"
+msgstr "ارسال این نوشته به کاربران خبرنامه؟"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/meta-box.php:4
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/send-sms.php:149
+msgid "Yes"
+msgstr "بله"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/meta-box.php:5
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/send-sms.php:152
+msgid "No"
+msgstr "خیر"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/newsletter.php:17
+msgid "You Can Use Newsletter Feature From Appearance -> Widgets By Adding The Widget To Your Theme"
+msgstr "<b>برای استفاده از این قابلیت شما می توانید به منوی نمایش -> ابزارک ها رفته و با افزودن ابزارک اشتراک در پیامک به قالب خود از آن استفاده کنید.</b>"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/newsletter.php:22
+msgid "Register?"
+msgstr "نام‌نویسی؟"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/newsletter.php:30
+msgid "Verified with the activation code?"
+msgstr "تأیید با کد فعال سازی؟"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/newsletter.php:38
+msgid "Send SMS?"
+msgstr "ارسال پیامک؟"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/newsletter.php:42
+msgid "Send a sms to subscriber when register."
+msgstr "ارسال پیامک به مشترک وقتی که در خبرنامه عضو شد."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/newsletter.php:49
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:57
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:93
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:131
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:161
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:204
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:233
+msgid "Text template"
+msgstr "قالب متن"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/newsletter.php:54
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:62
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:99
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:109
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:136
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:166
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:209
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:238
+msgid "Enter the contents of the sms message."
+msgstr "محتوای متن ارسال پیامک را وارد کنید."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/newsletter.php:56
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:64
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:101
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:111
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:138
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:168
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:211
+msgid "Input data:"
+msgstr "داده‌های ورودی:"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/newsletter.php:57
+msgid "Subscribe name"
+msgstr "نام مشترک"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/newsletter.php:58
+msgid "Subscribe mobile"
+msgstr "موبایل مشترک"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/newsletter.php:64
+msgid "Calling jQuery in Wordpress?"
+msgstr "فراخوانی جی‌کوئری در وردپرس؟"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/newsletter.php:68
+msgid "Enable this option with JQuery is called in the theme"
+msgstr "با فعال کردن این گزینه جی کوئری در پوسته فراخوانی میشود"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:42
+msgid "Wordpress Notifications"
+msgstr "اطلاع رسانی‌های وردپرس"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:46
+msgid "Published new posts"
+msgstr "انتشار نوشته‌ی تازه"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:50
+msgid "Send a sms to subscribers When published new posts."
+msgstr "ارسال پیامک به مشترکین خبرنامه هنگام انتشار نوشته‌ی تازه."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:65
+msgid "Title post"
+msgstr "عنوان نوشته"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:66
+msgid "URL post"
+msgstr "آدرس نوشته"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:67
+msgid "Date post"
+msgstr "تاریخ نوشته"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:73
+msgid "The new release of WordPress"
+msgstr "انتشار نگارش تازه وردپرس"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:77
+msgid "Send a sms to you When the new release of WordPress."
+msgstr "ارسال پیامک به شما هنگام انتشار نگارش تازه‌ی وردپرس."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:82
+msgid "Register a new user"
+msgstr "نام‌نویسی کاربر جدید"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:86
+msgid "Send a sms to you and user when register on wordpress."
+msgstr "ارسال پیامک به شما و خود کاربر هنگام نام‌نویسی در وردپرس."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:97
+msgid "For users:"
+msgstr "برای کاربر(ها):"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:102
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:112
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:152
+msgid "Username"
+msgstr "کلید وب سرویس"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:52
+msgid "ApiDomain"
+msgstr "دامنه وب سرویس"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:55
+msgid "Api Domain Desc"
+msgstr "دامنه وب سرویس مانند : https://ws.sms.ir/"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:103
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:113
+msgid "User email"
+msgstr "پست‌الکترونیک کاربر"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:104
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:114
+msgid "Date register"
+msgstr "تاریخ نام‌نویسی"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:107
+msgid "For admin:"
+msgstr "برای مدیر:"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:120
+msgid "New comment"
+msgstr "دیدگاه تازه"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:124
+msgid "Send a sms to you When get a new comment."
+msgstr "ارسال پیامک به شما هنگام دریافت دیدگاه تازه."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:139
+msgid "Comment author"
+msgstr "نویسنده‌ی دیدگاه"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:140
+msgid "Comment author email"
+msgstr "ایمیل نویسنده دیدگاه"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:141
+msgid "Comment author url"
+msgstr "نشانی نویسنده دیدگاه"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:142
+msgid "Comment author IP"
+msgstr "آی‌پی نویسنده دیدگاه"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:143
+msgid "Comment date"
+msgstr "تاریخ ارسال دیدگاه"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:144
+msgid "Comment content"
+msgstr "متن دیدگاه"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:150
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:169
+msgid "User login"
+msgstr "ورود کاربر"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:154
+msgid "Send a sms to you When user is login."
+msgstr "ارسال پیامک به شما هنگام ورود کاربر به سایت."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:170
+msgid "Display name"
+msgstr "نام نمایشی"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:176
+msgid "Contact form 7 plugin"
+msgstr "افزونه Contact form 7"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:180
+msgid "SMS meta box"
+msgstr "ارسال پیام هنگام ثبت فرم"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:184
+msgid ""
+"Added Wordpress SMS meta box to Contact form 7 plugin when enable this option."
+msgstr ""
+"با فعال کردن این گزینه هنگام ثبت فرم های افزونه کانتکت فرم پیام زیر به مدیر "
+"ارسال می گردد."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:189
+msgid "WooCommerce plugin"
+msgstr "افزونه WooCommerce"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:193
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:222
+msgid "New order"
+msgstr "سفارش جدید"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:197
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:226
+msgid "Send a sms to you When get new order."
+msgstr "ارسال پیامک به شما هنگام دریافت سفارش جدید."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:212
+msgid "Order ID"
+msgstr "شماره سفارش"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/notification.php:218
+msgid "Easy Digital Downloads plugin"
+msgstr "افزونه Easy Digital Downloads"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/posted.php:8
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:8
+msgid "Are you sure?"
+msgstr "آیا از اعمال تغییر اطمینان دارید؟"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/posted.php:20
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:36
+msgid "Posted SMS"
+msgstr "پیامک ارسال شده"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/posted.php:20
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/send-sms.php:134
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/send-sms.php:138
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/wordpress_smsir-wpcf7-form.php:4
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:77
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:122
+msgid "SMS"
+msgstr "پیامک"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/posted.php:26
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/posted.php:78
+msgid "Post Date"
+msgstr "تاریخ ارسال"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/posted.php:27
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/posted.php:79
+msgid "Sender"
+msgstr "ارسال کننده"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/posted.php:28
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/posted.php:80
+msgid "Message"
+msgstr "متن پیام"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/posted.php:29
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/posted.php:81
+msgid "Recipient"
+msgstr "دریافت کننده"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/posted.php:70
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:134
+msgid "Not Found!"
+msgstr "چیزی یافت نشد!"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/posted.php:89
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:155
+msgid "Bulk Actions"
+msgstr "تغییرات گروهی"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/posted.php:90
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:156
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:237
+msgid "Remove"
+msgstr "حذف"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/posted.php:92
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:160
+msgid "Apply"
+msgstr "اجرا"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/posted.php:102
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:170
+msgid "Page"
+msgstr "صفحه"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/posted.php:102
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:170
+msgid "From"
+msgstr "از"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/send-sms.php:43
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/send-sms.php:97
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/send-sms.php:162
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:35
+msgid "Send SMS"
+msgstr "ارسال پیامک"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/send-sms.php:89
+msgid "Please enter a message"
+msgstr "لطفا قسمت پیامک را وارد کنید"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/send-sms.php:100
+msgid "Send from"
+msgstr "ارسال از"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/send-sms.php:104
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/wordpress_smsir-wpcf7-form.php:10
+msgid "Send to"
+msgstr "ارسال به"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/send-sms.php:109
+msgid "Subscribe users"
+msgstr "کاربران خبرنامه"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/send-sms.php:111
+msgid "Number(s)"
+msgstr "شماره(ها)"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/send-sms.php:118
+#, php-format
+msgid "All (%s subscribers active)"
+msgstr "همه (%s مشترک فعال)"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/send-sms.php:128
+msgid "For example"
+msgstr "برای مثال"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/send-sms.php:137
+msgid "The remaining words"
+msgstr "کلمات باقی‌مانده"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/send-sms.php:140
+msgid "Your credit"
+msgstr "اعتبار شما"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/send-sms.php:146
+msgid "Send a Flash"
+msgstr "ارسال یه‌صورت فلش"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/send-sms.php:155
+msgid "Flash is possible to send messages without being asked, opens"
+msgstr "ارسال فلش امکانی است که پیام را بدون درخواست گیرند، باز می کند"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/send-sms.php:173
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/send-sms.php:181
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:159
+#, php-format
+msgid "Please check the <a href=\"%s\">SMS credit</a> the settings"
+msgstr "لطفاً تنظیمات <a href=\"%s\">اعتباری پیامک</a> را بررسی کنید."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/setting.php:21
+msgid "Your mobile country code"
+msgstr "کد موبایل کشور شما"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/setting.php:24
+msgid "Enter your mobile country code. (For example: Iran 09, Australia 61)"
+msgstr "کد موبایل کشورخود را وارد کنید. (برای مثال: ایران 09، استرالیا 61)"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:23
+msgid "Outset Create group to better manage the subscribers."
+msgstr "ابتدا گروه جدید بسازید تا مشترکین را بهتر مدیریت کنید."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:40
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:37
+msgid "Members Newsletter"
+msgstr "مشترکین خبرنامه"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:43
+#, php-format
+msgid "Search result for %s"
+msgstr "نتیجه جستجو برای %s"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:48
+msgid "All"
+msgstr "همه"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:75
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:77
+msgid "Search subscribers"
+msgstr "جستجوی مشترک"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:86
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:142
+msgid "Register date"
+msgstr "تاریخ عضویت"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:87
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:143
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:180
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:251
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/wordpress_smsir-subscribe-form.php:79
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/wordpress_smsir-widget.php:2
+msgid "Name"
+msgstr "نام"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:90
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:146
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:272
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:195
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:209
+msgid "Status"
+msgstr "وضعیت"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:91
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:128
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:147
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:282
+msgid "Edit"
+msgstr "ویرایش"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:158
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:276
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:211
+msgid "Deactive"
+msgstr "غیرفعال"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:178
+msgid "Add new subscribe:"
+msgstr "افزودن مشترک جدید:"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:201
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:216
+msgid "Add"
+msgstr "افزودن"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:209
+msgid "Add new Group:"
+msgstr "افزودن گروه جدید:"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:211
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:226
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:261
+msgid "Group name"
+msgstr "نام گروه"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:224
+msgid "Delete Group:"
+msgstr "حذف گروه:"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/subscribes.php:249
+msgid "Edit subscribe:"
+msgstr "ویرایش مشترک:"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:13
+msgid "Your Web service data will be deleted. Are you sure?"
+msgstr "اطلاعات وب‌سرویس شما حذف خواهد شد. آیا مطمئن هستید؟"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:44
+msgid "Select your Web Service"
+msgstr "وب‌سرویس خود را انتخاب کنید"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:46
+msgid "Iran"
+msgstr "ایران"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:110
+msgid "Australia"
+msgstr "استرالیا"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:114
+msgid "New Zealand"
+msgstr "نیوزلند"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:118
+msgid "Austria"
+msgstr "اتریش"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:122
+msgid "Pakistan"
+msgstr "پاکستان"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:126
+msgid "Indian"
+msgstr "هند"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:130
+msgid "Italian"
+msgstr "ایتالیا"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:135
+msgid "For more information about adding Web Service"
+msgstr "اطلاعات بیشتر در مورد اضافه کردن وب سرویس"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:140
+msgid "Reset"
+msgstr "ریست"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:144
+#, php-format
+msgid ""
+"If you do not have a web service, <a href=\"%s\" target=\"_blank\">click here."
+"</a>"
+msgstr ""
+"اگر شما وب سرویس پیامک ندارید، <a href=\"%s\" target=\"_blank\">اینجا را</a> "
+"کلیک کنید."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:145
+#, php-format
+msgid ""
+"If your Web service is not on the top list, <a href=\"%s\" target=\"_blank"
+"\">click here.</a>"
+msgstr ""
+"اگر وب سرویس شما در لیست بالا نیست،<a href=\"%s\" target=\"_blank\">اینجا را</"
+"a> کلیک کنید."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:155
+msgid "Your username in"
+msgstr ""
+"<a href='http://ip.sms.ir/#/UserApiKey' target='_blank'>کلید وب سرویس شما در</"
+"a>"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:158
+#, php-format
+msgid ""
+"If you do not have a username for this service <a href=\"%s\">click here..</a>"
+msgstr ""
+"درصورتی که نام‌کاربری این سرویس را ندارید <a href=\"%s\">اینجا را</a> کلیک "
+"کنید."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:164
+msgid "Password"
+msgstr "کد امنیتی"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:167
+msgid "Your password in"
+msgstr ""
+"<a href='http://ip.sms.ir/#/UserApiKey' target='_blank'>کد امنیتی شما در</a>"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:170
+#, php-format
+msgid ""
+"If you do not have a password for this service <a href=\"%s\">click here..</a>"
+msgstr ""
+"درصورتی که رمزعبور این سرویس را ندارید <a href=\"%s\">اینجا را</a> کلیک کنید."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:177
+msgid "API/Key"
+msgstr "API/Key"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:180
+msgid "Your API Key in"
+msgstr "کلید API شما در"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:186
+msgid "Number"
+msgstr "شماره"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:189
+msgid "Your SMS sender number in"
+msgstr ""
+"<a href='http://ip.sms.ir/#/UserSetting' target='_blank'>شماره ارسال کننده "
+"پیامک شما در</a>"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/settings/web-service.php:202
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:75
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:133
+msgid "Credit"
+msgstr "اعتبار"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/wordpress_smsir-subscribe-form.php:26
+msgid "You will join the newsletter!"
+msgstr "شما عضو خبرنامه شدید!"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/wordpress_smsir-subscribe-form.php:31
+msgid "Your subscription was canceled."
+msgstr "عضویت شما لغو شد."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/wordpress_smsir-subscribe-form.php:37
+msgid "You will join the newsletter, Activation code sent to your number."
+msgstr "شما عضو خبرنامه شدید، کدفعال سازی به موبایل شما ارسال شد."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/wordpress_smsir-subscribe-form.php:59
+msgid "Your membership in the complete newsletter!"
+msgstr "ثبت نام شما در خبرنامه کامل شد!"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/wordpress_smsir-subscribe-form.php:75
+msgid "Enter your information for SMS Subscribe"
+msgstr "برای عضویت در خبرنامه پیامکی، اطلاعات خود را وارد کنید"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/wordpress_smsir-subscribe-form.php:102
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/wordpress_smsir-subscribe-form.php:111
+msgid "Subscribe"
+msgstr "اشتراک"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/wordpress_smsir-subscribe-form.php:105
+msgid "Unsubscribe"
+msgstr "لغو اشتراک"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/wordpress_smsir-subscribe-form.php:118
+msgid "Please enter the activation code:"
+msgstr "لطفا کدفعال سازی را وارد کنید:"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/wordpress_smsir-subscribe-form.php:120
+msgid "Activation"
+msgstr "فعال سازی"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/wordpress_smsir-subscribe-form.php:126
+msgid "Subscribe is Deactive!"
+msgstr "خبرنامه غیرفعال است!"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/wordpress_smsir-tell-friend.php:1
+msgid "Suggested by SMS"
+msgstr "پیشنهاد از طریق پیامک"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/wordpress_smsir-tell-friend.php:5
+msgid "Your name"
+msgstr "نام شما"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/wordpress_smsir-tell-friend.php:6
+msgid "Your friend name"
+msgstr "نام دوست شما"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/wordpress_smsir-tell-friend.php:7
+msgid "Your friend mobile"
+msgstr "موبایل دوست شما"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/wordpress_smsir-tell-friend.php:15
+msgid "Send"
+msgstr "ارسال"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/wordpress_smsir-wpcf7-form.php:12
+msgid "Enter enter mobile number to receive message."
+msgstr "برای دریافت پیغام، شماره موبایل را وارد کنید."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/includes/templates/wordpress_smsir-wpcf7-form.php:18
+msgid "Message body"
+msgstr "متن پیام"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:24
+msgid "Send a SMS via WordPress, Subscribe for sms newsletter and send verification code via mobile to users."
+msgstr "ارسال پیامک از طریق وردپرس، عضویت در خبرنامه پیامکی و ارسال کد فعالسازی به موبایل کاربران."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:34
+msgid "Wordpress SMS"
+msgstr "پیامک وردپرس sms.ir"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:36
+msgid "Posted"
+msgstr "ارسالی‌ها"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:37
+msgid "Subscribers"
+msgstr "مشترکین"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:38
+msgid "Setting"
+msgstr "تنظیمات"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:39
+msgid "About"
+msgstr "درباره"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:114
+#, php-format
+msgid "Your Credit: %s %s"
+msgstr "اعتبار شما: %s %s"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:140
+msgid "Newsletter Subscriber"
+msgstr "مشترک خبرنامه"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:151
+#, php-format
+msgid "%s Subscriber"
+msgstr "%s مشترک"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:152
+#, php-format
+msgid "%s SMS Credit"
+msgstr "%s اعتبار پیامک"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:167
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:168
+msgid "Subscribe to SMS"
+msgstr "اشتراک در پیامک"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:198
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:213
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:251
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:527
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:573
+msgid "You do not have sufficient permissions to access this page."
+msgstr "شما مجوز کافی برای دیدن این برگه را ندارید"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:235
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:300
+msgid "With success was removed"
+msgstr "باموفقیت حذف شد"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:237
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:302
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:315
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:328
+msgid "Not Found"
+msgstr "چیزی یافت نشد"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:313
+msgid "User is active."
+msgstr "کابر فعال شد."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:326
+msgid "User is Deactive.."
+msgstr "کابر غیر فعال شد."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:365
+#, php-format
+msgid "username <strong>%s</strong> was added successfully."
+msgstr "کاربر <strong>%s</strong> با موفقیت اضافه شد."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:396
+#, php-format
+msgid "Group <strong>%s</strong> was added successfully."
+msgstr "گروه <strong>%s</strong> با موفقیت اضافه شد."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:400
+msgid "Group name is repeated"
+msgstr "نام گروه تکراری است"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:403
+msgid "Please complete field"
+msgstr "لطفا فیلد را کامل کنید"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:419
+#, php-format
+msgid "Group <strong>%s</strong> was successfully removed."
+msgstr "گروه <strong>%s</strong> با موفقیت حذف شد."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:426
+msgid "Group name can not include comma"
+msgstr "نام گروه نمیتواند شامل کاراکتر کاما باشد!"
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:447
+#, php-format
+msgid "username <strong>%s</strong> was update successfully."
+msgstr "کاربر <strong>%s</strong> با موفقیت به‌روز  شد."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:472
+#, php-format
+msgid "Group name <strong>%s</strong> was update successfully."
+msgstr "گروه <strong>%s</strong> با موفقیت به‌روز  شد."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:499
+#, php-format
+msgid "<strong>%s</strong> items was successfully added."
+msgstr "تعداد <strong>%s</strong> آیتم با موفقیت اضافه شد."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:502
+#, php-format
+msgid "<strong>%s</strong> Mobile numbers Was repeated."
+msgstr "تعداد  <strong>%s</strong> شماره موبایل تکراری بود."
+
+#: \var\www\html\wordpress\wp-content\plugins\WordpressPluginSMSIR-V3.1/wordpress_smsir.php:602
+msgid "Only xls Format Supported"
+msgstr "تنها فرمت xls پشتیبانی می شود"
+
+msgid "Customer club contacts"
+msgstr "مخاطبین باشگاه مشتریان sms.ir"
+
+msgid "Customer club number"
+msgstr "خط باشگاه مشتریان"
+
+msgid ""
+"This option sends sms to your customer club contacts that saved in sms.ir "
+"panel."
+msgstr ""
+"این گزینه با استفاده از شماره باشگاه مشتریان پنل شما در sms.ir به همه مخاطبین "
+"شما ارسال پیامک انجام می دهد."
+
+msgid "(The number configured as a customer club number)"
+msgstr "(شماره ارسال بعنوان شماره ارسالی باشگاه مشتریان شما انتخاب شده است.)"
+
+msgid "Activate if number is customer clubs number"
+msgstr ""
+"در صورتیکه نیاز به ارسال پیامک از طریق خط باشگاه مشتریان تان را دارید ، این "
+"گزینه را حتما انتخاب نمایید."
+
+msgid "Customer Club numbers sends to just one number"
+msgstr " "
+
+msgid "Form ID"
+msgstr "شناسه فرم"
+
+msgid "Form Title"
+msgstr "عنوان فرم"
+
+#~ msgid "Newsletter subscribers"
+#~ msgstr "مشترکین خبرنامه"
+
+#~ msgid "Rial"
+#~ msgstr "ریال"
+
+#~ msgid "Web Service (%s)"
+#~ msgstr "وب سرویس (%s)"
+
+#~ msgid "Plugin base: %s"
+#~ msgstr "افزونه پایه: %s"
+
+#~ msgid "Premium Version: %s"
+#~ msgstr "نگارش پرمیوم: %s"
+
+#~ msgid ""
+#~ "Premium version from Wordpress SMS Plugin with feature and new web "
+#~ "services."
+#~ msgstr ""
+#~ "نگارش حرفه‌ای از افزونه پیامک وردپرس با قابلیت ها و وب سرویس های جدید."
+
+#~ msgid "Quform plugin"
+#~ msgstr "افزونه Quform"
+
+#~ msgid "New Message"
+#~ msgstr "پیغام جدید"
+
+#~ msgid "Send a sms to you When get new message from contact form."
+#~ msgstr "ارسال پیامک به شما هنگام دریافت پیغام جدید از فرم تماس."
+
+#~ msgid "Premium list"
+#~ msgstr "لیست پرمیوم"
+
+#~ msgid "Wordpress SMS (Premium version)"
+#~ msgstr "پیامک وردپرس (نسخه حرفه‌ای)"
+
+#~ msgid "Send a sms when register a new subscribe."
+#~ msgstr "ارسال پیامک هنگام نام‌نویسی مشترک جدید."
+
+#~ msgid "Send activation code via SMS?"
+#~ msgstr "ارسال کدفعال سازی از طریق پیامک؟"
+
+#~ msgid "Send SMS to subscriber?"
+#~ msgstr "ارسال پیامک به مشترک؟"
+
+#~ msgid "You will join the newsletter"
+#~ msgstr "شما عضو خبرنامه شدید"
+
+#~ msgid "Error communicating with the database!"
+#~ msgstr "خطای در ارتباط با پایگاه داده!"
+
+#, fuzzy
+#~ msgid "username deactived."
+#~ msgstr "کاربر غیرفعال شد."
+
+#~ msgid "Add SMS meta box to contact form 7?"
+#~ msgstr "اضافه کردن جعبه اطلاعات پیامک در فرم تماس 7؟"
+
+#~ msgid "Send a sms to you When get new order from Easy Digital Downloads."
+#~ msgstr "ارسال پیامک به شما هنگام دریافت سفارش جدید از Easy Digital Downloads"
+
+#~ msgid "Customer first name"
+#~ msgstr "نام مشتری"
+
+#~ msgid "Customer last name"
+#~ msgstr "نام‌خانوادگی مشتری"
+
+#~ msgid ""
+#~ "Enable this option with When a new version of WordPress was ready, will be "
+#~ "informed via SMS for you."
+#~ msgstr ""
+#~ "با فعال کردن این گزینه وقتی نسخه جدید وردپرس آماده شد، از طریق پیامک به "
+#~ "شما اطلاع داده می شود."
+
+#~ msgid "Posts sent to subscribers?"
+#~ msgstr "ارسال نوشته‌ها به مشترکین؟"
+
+#~ msgid "Other Features"
+#~ msgstr "سایر ویژگی‌ها"
+
+#~ msgid "Post Suggestion"
+#~ msgstr "پیشنهاد نوشته"
+
+#~ msgid "Notification SMS of a new wordPress version?"
+#~ msgstr "اطلاع رسانی با پیامک در صورت انتشار نسخه جدید وردپرس؟"
+
+#~ msgid "Select"
+#~ msgstr "انتخاب"
+
+#~ msgid "Credit SMS Setting"
+#~ msgstr "تنظیمات اعتبار پیامک"
+
+#~ msgid "SMS Setting"
+#~ msgstr "تنظیمات پیامک"
+
+#~ msgid "WP SMS"
+#~ msgstr "پیامک وردپرس"
+
+#~ msgid "A message was received from the Contact Form 7: "
+#~ msgstr "یک پیام از فرم تماس 7 دریافت شد: "
+
+#~ msgid "(SMS wordpress plugin)"
+#~ msgstr "(افزونه پیامک وردپرس)"
+
+#~ msgid "Notification SMS when messages received from Contact Form 7 plugin?"
+#~ msgstr "اطلاع رسانی با پیامک در صورت دریافت پیغام از افزونه فرم تماس 7؟"
+
+#~ msgid ""
+#~ "Enable this option with When a new message received of Contact Form 7 "
+#~ "plugin, will be informed via SMS"
+#~ msgstr ""
+#~ "با فعال کردن این گزینه پیغام جدید از فرم تماس 7 دریافت شد، از طریق پیامک "
+#~ "اطلاع داده می شود"
+
+#~ msgid "Subscribe users (%s) active"
+#~ msgstr "مشترکین خبرنامه (%s) فعال"
+
+#~ msgid "Groups"
+#~ msgstr "گروه‌ها"
+
+#~ msgid "Your mobile"
+#~ msgstr "موبایل شما"
+
+#~ msgid "First create a new group!"
+#~ msgstr "ابتدا یک گروه جدید بسازید!"
+
+#~ msgid "Subscribes list"
+#~ msgstr "لیست مشترک‌ها"
+
+#~ msgid "ID"
+#~ msgstr "شماره"
+
+#~ msgid "SMS Panel (%s)"
+#~ msgstr "سامانه پیامک (%s)"
+
+#~ msgid "Enable or disable this feature"
+#~ msgstr "کد موبایل"
+
+#~ msgid "Common"
+#~ msgstr "مشترک"
+
+#~ msgid "Click for more information"
+#~ msgstr "برای اطلاعات بیشتر کلیک کنید"
+
+#~ msgid "Your Web Service does not exist?"
+#~ msgstr "سرویس دهنده شما وجود ندارد؟"
+
+#~ msgid "Paniz SMS (panizsms.ir)"
+#~ msgstr "سامانه پیامک پانیز (panizsms.ir)"
+
+#~ msgid "Parand Host (%s)"
+#~ msgstr "پرند هاست (%s)"
+
+#~ msgid "Iransmspanel (%s)"
+#~ msgstr "سامانه پیامک ایران اس‌ام‌اس پنل (%s)"
+
+#~ msgid "Host Iran (%s)"
+#~ msgstr "سامانه پیامک هاست ایران (%s)"
+
+#~ msgid "Webstudio (%s)"
+#~ msgstr "سامانه پیامک وب استودیو (%s)"
+
+#~ msgid "Payame Avval (payameavval.com)"
+#~ msgstr "سامانه پیام کوتاه پیام اول (payameavval.com)"
+
+#~ msgid "Number with success was added"
+#~ msgstr "با موفقیت اضافه شد"
+
+#~ msgid "parsasms (parsasms.com)"
+#~ msgstr "سامانه پیامک پارس اس‌ام‌اس (parssms.com)"
+
+#~ msgid "Peaple"
+#~ msgstr "نفر"
+
+#~ msgid "Orange SMS (orangesms.net)"
+#~ msgstr "سامانه پیامک اورنگ (orangesms.net)"
+
+#~ msgid "The main server"
+#~ msgstr "سرویس‌دهنده‌ اصلی"
+
+#~ msgid "Programming by"
+#~ msgstr "برنامه نویسی توسط"
+
+#~ msgid "About wordpress_smsir Plugin"
+#~ msgstr "درباره پلاگین پیامک"
+
+#~ msgid "Your username in sms.webstudio.ir"
+#~ msgstr "نام کاربری شما در sms.webstudio.ir"
+
+#~ msgid "To receive a username and password to visit:"
+#~ msgstr "برای دریافت نام‌کاربری و رمزعبور، مراجعه کنید به:"
+
+#~ msgid "Minimum words"
+#~ msgstr "حداقل کلمات"
+
+#~ msgid "Words"
+#~ msgstr "کلمات"
+
+#~ msgid "Dollar"
+#~ msgstr "دلار"
+
+#~ msgid "Unit Money"
+#~ msgstr "واحد پول"
+
+#~ msgid "Error! Please Credit check settings"
+#~ msgstr "خطا! لطفا تنظیمات اعتباری را بررسی کنید"
+
+#~ msgid "Dolar"
+#~ msgstr "دلار"

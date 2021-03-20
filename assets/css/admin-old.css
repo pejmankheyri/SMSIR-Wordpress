@@ -1,0 +1,9 @@
+
+#adminmenu #toplevel_page_wordpress_smsir-wp-sms div.wp-menu-image {
+    background: url("../images/sms.png") no-repeat scroll center center rgba(0, 0, 0, 0) !important;
+}
+
+
+#adminmenu #toplevel_page_wordpress_smsir-wordpress_smsir div.wp-menu-image:before {
+    content: "";
+}
