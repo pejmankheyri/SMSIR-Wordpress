@@ -1,0 +1,9 @@
+#adminmenu #toplevel_page_wordpress_smsir-wordpress_smsir .wp-menu-image:before {
+    content: "";
+}
+.wpsms-subscribe-count a:before {
+    content: "" !important;
+}
+.wpsms-credit-count a:before {
+    content: "\f111" !important;
+}
