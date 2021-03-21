@@ -106,7 +106,7 @@
                     <input type="text" dir="ltr" id="wpsms_admin_mobile" name="wordpress_smsir_username" value="<?php echo get_option('wordpress_smsir_username'); ?>"/>
                     <p class="description"><?php _e('Your username in', 'wordpress_smsir'); ?>: <?php echo $sms->panel; ?></p>
                     <?php if (!get_option('wordpress_smsir_username')) { ?>
-                        <p class="register"><?php echo sprintf(__('If you do not have a username for this service <a href="%s">click here..</a>', 'wordpress_smsir'), $sms->tariff) ?></p>
+                        <p class="register"><?php echo sprintf(__('If you do not have a username for this service <a href="%s">click here..</a>', 'wordpress_smsir'), $sms->tariff) ?>.</p>
                     <?php } ;?>
                 </td>
             </tr>
@@ -118,7 +118,7 @@
                     <?php 
                     if (!get_option('wordpress_smsir_password')) { 
                         ?>
-                        <p class="register"><?php echo sprintf(__('If you do not have a password for this service <a href="%s">click here..</a>', 'wordpress_smsir'), $sms->tariff) ?></p>
+                        <p class="register"><?php echo sprintf(__('If you do not have a password for this service <a href="%s">click here..</a>', 'wordpress_smsir'), $sms->tariff) ?>.</p>
                     <?php } ?>
                 </td>
             </tr>
@@ -137,7 +137,7 @@
                     <input type="text" dir="ltr" id="wpsms_admin_mobile" name="wordpress_smsir_number" value="<?php echo get_option('wordpress_smsir_number'); ?>"/>
                     <p class="description"><?php _e('Your SMS sender number in', 'wordpress_smsir'); ?>: <?php echo $sms->panel; ?></p>
                     <input type="checkbox" name="wordpress_smsir_stcc_number" id="wpsms-stcc-number" <?php echo get_option('wordpress_smsir_stcc_number') ==true? 'checked="checked"':'';?>/>
-                    <label for="wpsms-stcc-number"><?php _e('Activate if number is customer clubs number', 'wordpress_smsir'); ?></label>
+                    <label for="wpsms-stcc-number"><?php _e('Activate if number is customer clubs number', 'wordpress_smsir'); ?>.</label>
                 </td>
             </tr>
             <?php if ($sms->getCredit() > 0) { ?>

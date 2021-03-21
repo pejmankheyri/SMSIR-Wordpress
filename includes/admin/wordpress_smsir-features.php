@@ -110,8 +110,12 @@ function Wordpress_Smsir_Registration_errors($errors, $sanitized_user_login, $us
     } else {
         $mobile_no = $_POST['mobile'];
         $get_mobile = $wpdb->get_results("SELECT * FROM `{$table_prefix}usermeta` WHERE `meta_key` = 'mobile' AND `meta_value` = '$mobile_no'");
-        $mobile = $get_mobile[0]->meta_value;
-        if ($mobile) {
+        
+        if (isset($get_mobile[0])) {
+            $mobile = $get_mobile[0]->meta_value;
+        }
+        
+        if (isset($mobile)) {
             $errors->add('mobile_error', __('<strong>ERROR</strong>: This mobile number is already exist.', 'wordpress_smsir'));
         } else {
             if ($verify_config == "on") {
@@ -119,9 +123,9 @@ function Wordpress_Smsir_Registration_errors($errors, $sanitized_user_login, $us
                 $user_login = $_POST["user_login"];
                 $user_email = $_POST["user_email"];
                 $mobile = doubleval($_POST["mobile"]);
-                $verification = $_POST["verification"];
-                $wp_submit = $_POST["wp_submit"];
-                $wp_resend = $_POST["wp_resend"];
+                @$verification = $_POST["verification"];
+                @$wp_submit = $_POST["wp_submit"];
+                @$wp_resend = $_POST["wp_resend"];
 
                 $random_number = mt_rand(1000, 9999);
                 $get_current_date = time();

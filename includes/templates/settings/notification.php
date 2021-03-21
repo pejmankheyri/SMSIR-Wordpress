@@ -331,7 +331,7 @@
             <tr>
                 <th><?php _e('Input Datas Guidance', 'wordpress_smsir'); ?></th>
                 <td>
-                    <p class="description" style="color: red;"><?php _e('Input Datas Guidance Description', 'wordpress_smsir'); ?></p>
+                    <p class="description" style="color: red;"><?php _e('Input Datas Guidance Description', 'wordpress_smsir'); ?>.</p>
                 </td>
             </tr>
             <tr>

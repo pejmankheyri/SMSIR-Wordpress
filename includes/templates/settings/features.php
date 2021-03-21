@@ -67,7 +67,7 @@
                     <input type="checkbox" name="wordpress_smsir_add_mobile_field" id="wordpress_smsir_add_mobile_field" <?php echo get_option('wordpress_smsir_add_mobile_field') ==true? 'checked="checked"':'';?>/>
                     <label for="wordpress_smsir_add_mobile_field"><?php _e('Active', 'wordpress_smsir'); ?></label>
                     <p class="description"><?php _e('Add Mobile number to user profile and register form.', 'wordpress_smsir'); ?></p>
-                    <p class="description"><?php _e('If this option activated users mobile numbers must be unique', 'wordpress_smsir'); ?></p>
+                    <p class="description"><?php _e('If this option activated users mobile numbers must be unique', 'wordpress_smsir'); ?>.</p>
                 </td>
             </tr>
             <tr>

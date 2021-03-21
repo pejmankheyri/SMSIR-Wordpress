@@ -197,7 +197,7 @@ jQuery(document).ready( function($) {
                 $i = null;
                 foreach ($get_group_result as $groups) {
                     $current = null;
-                    if ($_GET['group']) {
+                    if (isset($_GET['group'])) {
                         if ($_GET['group'] == $groups->ID) {
                             $current = "class='current' ";
                         }

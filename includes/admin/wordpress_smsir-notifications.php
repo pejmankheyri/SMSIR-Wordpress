@@ -16,10 +16,11 @@ if (!defined('ABSPATH')) exit;
 // Wordpress new version
 if (get_option('wordpress_smsir_notification_new_wp_version')) {
 
+    $update = array();
     $update = get_site_transient('update_core');
     $update = $update->updates;
 
-    if ($update[1]->current > $wp_version) {
+    if (isset($update[1]) && ($update[1]->current > $wp_version)) {
         if (get_option('wp_last_send_notification') == false) {
 
             $webservice = get_option('wordpress_smsir_webservice');

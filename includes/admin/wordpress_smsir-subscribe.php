@@ -15,7 +15,7 @@ require_once "../../../../../wp-load.php";
 
 $name = trim($_REQUEST['name']);
 $mobile = trim($_REQUEST['mobile']);
-$group = $_REQUEST['group'];
+// $group = $_REQUEST['group'];
 $type = $_REQUEST['type'];
 
 if (isset($_REQUEST['group'])) {
@@ -23,7 +23,7 @@ if (isset($_REQUEST['group'])) {
     $group = implode(",", $group_array);
 }
 
-if ($name && $mobile && $group) {
+if (isset($name) && isset($mobile) && isset($group)) {
     if ((preg_match(WORDPRESS_SMSIR_MOBILE_REGEX, $mobile)) || (preg_match(WORDPRESS_SMSIR_MOBILE_REGEX_ZERO, $mobile))) {
 
         global $wpdb, $table_prefix, $sms, $date;

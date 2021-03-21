@@ -55,7 +55,7 @@
         });
 
         <?php if (get_option('wordpress_smsir_subscribes_activation')) { ?>
-        $("#activation").live('click', function() {
+        $("#activation").on('click', function() {
             $("#wpsms-activation-result").html('');
             var get_subscribe_mobile = $("#wpsms-mobile").val();
             var get_activation = $("#wpsms-ativation-code").val();
@@ -109,7 +109,7 @@
         </tr>
         <tr>
             <td colspan="2">
-                <button class="wpsms-submit" id="wpsms-submit"><?php _e('Subscribe', 'wordpress_smsir'); ?></button>
+                <button class="wpsms-submit" id="wpsms-submit"><?php _e('submit', 'wordpress_smsir'); ?></button>
             </td>
         </tr>
     </table>

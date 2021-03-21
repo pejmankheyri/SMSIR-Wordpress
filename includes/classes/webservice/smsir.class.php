@@ -151,7 +151,7 @@ class Smsir extends WORDPRESS_SMSIR
 
                 if ($CustomerClubInsertAndSendMessage == true) {
                     $this->insertToDBclubWithNumbers($this->msg, $this->to);
-                    $this->hook('wordpress_smsir_send', $result);
+                    $this->hook('wordpress_smsir_send', $CustomerClubInsertAndSendMessage);
                     return true;
                 } else {
                     return false;
@@ -160,7 +160,7 @@ class Smsir extends WORDPRESS_SMSIR
                 $SendMessage = $this->sendMessage($numbers, $Messages, $SendDateTime);
                 if ($SendMessage == true) {
                     $this->insertToDB($this->from, $this->msg, $this->to);
-                    $this->hook('wordpress_smsir_send', $result);
+                    $this->hook('wordpress_smsir_send', $SendMessage);
                     return true;
                 } else {
                     return false;
@@ -195,7 +195,7 @@ class Smsir extends WORDPRESS_SMSIR
             if (is_object($object)) {
                 if ($object->IsSuccessful == true) {
                     $this->insertToDBclub($Messages);
-                    $this->hook('wordpress_smsir_send', $result);
+                    $this->hook('wordpress_smsir_send', $object);
                     return true;
                 } else {
                     return false;

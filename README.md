@@ -48,11 +48,23 @@
 
 ## امکانات
 
-* 
+* ارسال پیامک بصورت غیر سیستمی و دستی به شماره های خاص، کاربران خبرنامه وردپرس و کاربران باشگاه مشتریان پنل sms.ir 
+* ابزارک ارسال پیامک در لیست ابزارک ها برای ثبت کاربرانی که علاقه مند به دریافت خبرنامه هستند
+* مدیریت مشترکین خبرنامه در پنل مدیریت وردپرس شامل: حذف/ویرایش/فعالسازی/افزودن/ایمپورت/اکسپورت مشترک جدید یا گروه 
+* لیست پیامک های ارسال شده توسط افزونه با تاریخ ارسال/ارسال کننده/متن پیامک/دریافت کننده
+* قابلیت فعالسازی کاربران ثبت نامی جدید با استفاده از کد فعالسازی که ارسال توسط ماژول ارسال سریع sms.ir انجام می دهد
+* اطلاع رسانی از طریق پیامک به مشترکین خبرنامه هنگام انتشار نوشته جدید
+* ارسال پیامک به مدیر وب سایت هنگام انتشار نگارش تازه‌ی وردپرس
+* ارسال پیامک به کاربر و مدیر هنگام نام‌نویسی کاربر جدید
+* ارسال پیامک به مدیر وب سایت هنگام دریافت دیدگاه تازه
+* ارسال پیامک به مدیر وب سایت هنگام ورود کاربران به سایت
+* ارسال پیامک به مدیر جهت اطلاع رسانی هنگام ثبت فرم در افزونه Contact form 7
+* ارسال پیامک به مدیر جهت اطلاع رسانی هنگام دریافت سفارش جدید در افزونه Woocommerce
+* ارسال پیامک به مدیر جهت اطلاع رسانی هنگام دریافت سفارش جدید در افزونه Easy Digital Downloads
 
 ## تنظیمات
 
-* تنظیمات اصلی پلاگین شامل جدول زیر می باشد:
+* تنظیمات اصلی افزونه شامل جدول زیر می باشد:
 
     | تنظیمات | توضیح |
     | ------ | ------ |
@@ -78,15 +90,21 @@
 
 ## تصاویر افزونه
 
-* <a href="" target="_blank">تصویر 01</a>
-* <a href="" target="_blank">تصویر 02</a>
-* <a href="" target="_blank">تصویر 03</a>
-* <a href="" target="_blank">تصویر 04</a>
-* <a href="" target="_blank">تصویر 05</a>
-* <a href="" target="_blank">تصویر 06</a>
-* <a href="" target="_blank">تصویر 07</a>
-* <a href="" target="_blank">تصویر 08</a>
-* <a href="" target="_blank">تصویر 09</a>
-* <a href="" target="_blank">تصویر 10</a>
+* <a href="https://user-images.githubusercontent.com/3329008/111915085-dabe7680-8a89-11eb-845c-bc408af9f882.png" target="_blank">تصویر 01</a>
+* <a href="https://user-images.githubusercontent.com/3329008/111915101-e9a52900-8a89-11eb-9844-47f351b43a36.png" target="_blank">تصویر 02</a>
+* <a href="https://user-images.githubusercontent.com/3329008/111915116-f4f85480-8a89-11eb-8d7a-e1069a213445.png" target="_blank">تصویر 03</a>
+* <a href="https://user-images.githubusercontent.com/3329008/111915125-ff1a5300-8a89-11eb-9129-af276a0a8437.png" target="_blank">تصویر 04</a>
+* <a href="https://user-images.githubusercontent.com/3329008/111915135-09d4e800-8a8a-11eb-94af-4478d66957d7.png" target="_blank">تصویر 05</a>
+* <a href="https://user-images.githubusercontent.com/3329008/111915170-253ff300-8a8a-11eb-80bb-438c66f1e022.png" target="_blank">تصویر 06</a>
+* <a href="https://user-images.githubusercontent.com/3329008/111915187-3ab51d00-8a8a-11eb-95cf-b99f278cecb8.png" target="_blank">تصویر 07</a>
+* <a href="https://user-images.githubusercontent.com/3329008/111915198-49033900-8a8a-11eb-83fb-d766351efa85.png" target="_blank">تصویر 08</a>
+* <a href="https://user-images.githubusercontent.com/3329008/111915206-528ca100-8a8a-11eb-8716-4b315f144b02.png" target="_blank">تصویر 09</a>
+* <a href="https://user-images.githubusercontent.com/3329008/111915219-5c160900-8a8a-11eb-924c-289b3c0bde25.png" target="_blank">تصویر 10</a>
+* <a href="https://user-images.githubusercontent.com/3329008/111915229-659f7100-8a8a-11eb-8a6b-31630dddada1.png" target="_blank">تصویر 11</a>
+* <a href="https://user-images.githubusercontent.com/3329008/111915241-6e904280-8a8a-11eb-9565-c7070d25572c.png" target="_blank">تصویر 12</a>
+* <a href="https://user-images.githubusercontent.com/3329008/111915247-764fe700-8a8a-11eb-85b4-96ebe0fe30a3.png" target="_blank">تصویر 13</a>
+* <a href="https://user-images.githubusercontent.com/3329008/111915255-7d76f500-8a8a-11eb-8366-25f0f4349b77.png" target="_blank">تصویر 14</a>
+* <a href="https://user-images.githubusercontent.com/3329008/111915264-8667c680-8a8a-11eb-979a-db72504f9630.png" target="_blank">تصویر 15</a>
+* <a href="https://user-images.githubusercontent.com/3329008/111915268-8ec00180-8a8a-11eb-9fb5-6026419eeea8.png" target="_blank">تصویر 16</a>
 
 </div>

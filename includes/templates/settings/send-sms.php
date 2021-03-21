@@ -105,13 +105,15 @@
                         }
                     }
                     $sms->msg = $_POST['wp_get_message'];
-                    if ($_POST['wp_flash'] == "true") {
+                    if (isset($_POST['wp_flash']) && ($_POST['wp_flash'] == "true")) {
                         $sms->isflash = true;
-                    } elseif ($_POST['wp_flash'] == "false") {
+                    } elseif (isset($_POST['wp_flash']) && ($_POST['wp_flash'] == "false")) {
                         $sms->isflash = false;
                     }
                     if ($sms->sendSMS()) {
-                        $to = implode($wpdb->get_col("SELECT mobile FROM {$table_prefix}smsir_subscribes"), ",");
+                        $subscribes = $wpdb->get_col("SELECT mobile FROM {$table_prefix}smsir_subscribes");
+
+                        $to = implode(",", $subscribes);
                         echo "<div class='updated'><p>" . __('SMS was sent with success', 'wordpress_smsir') . "</p></div>";
                         update_option('wordpress_smsir_last_credit', $sms->getCredit());
                     }
@@ -218,7 +220,7 @@
             ?>
             <div class="error">
                 <?php $get_bloginfo_url = get_admin_url() . "admin.php?page=wordpress_smsir/setting&tab=web-service"; ?>
-                <p><?php echo sprintf(__('Please check the <a href="%s">SMS credit</a> the settings', 'wordpress_smsir'), $get_bloginfo_url); ?></p>
+                <p><?php echo sprintf(__('Please check the <a href="%s">SMS credit</a> the settings', 'wordpress_smsir'), $get_bloginfo_url); ?>.</p>
             </div>
             <?php
         }
@@ -226,7 +228,7 @@
         ?>
         <div class="error">
             <?php $get_bloginfo_url = get_admin_url() . "admin.php?page=wordpress_smsir/setting&tab=web-service"; ?>
-            <p><?php echo sprintf(__('Please check the <a href="%s">SMS credit</a> the settings', 'wordpress_smsir'), $get_bloginfo_url); ?></p>
+            <p><?php echo sprintf(__('Please check the <a href="%s">SMS credit</a> the settings', 'wordpress_smsir'), $get_bloginfo_url); ?>.</p>
         </div>
         <?php
     } ?>

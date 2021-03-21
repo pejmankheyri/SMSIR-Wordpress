@@ -218,7 +218,7 @@ add_action('dashboard_glance_items', 'Wordpress_Smsir_glance');
 function Wordpress_Smsir_enable()
 {
     $get_bloginfo_url = get_admin_url() . "admin.php?page=wordpress_smsir/setting&tab=web-service";
-    echo '<div class="error"><p>'.sprintf(__('Please check the <a href="%s">SMS credit</a> the settings', 'wordpress_smsir'), $get_bloginfo_url).'</p></div>';
+    echo '<div class="error"><p>'.sprintf(__('Please check the <a href="%s">SMS credit</a> the settings', 'wordpress_smsir'), $get_bloginfo_url).'.</p></div>';
 }
 
 if(!get_option('wordpress_smsir_username') || !get_option('wordpress_smsir_password'))
@@ -257,7 +257,7 @@ function Wordpress_Smsir_Subscribe_Show_widget($args)
  */
 function Wordpress_Smsir_Subscribe_Control_widget()
 {
-    if ($_POST['wordpress_smsir_submit_widget']) {
+    if (isset($_POST['wordpress_smsir_submit_widget'])) {
         update_option('wordpress_smsir_widget_name', $_POST['wordpress_smsir_widget_name']);
     }
     include_once dirname(__FILE__) . "/includes/templates/wordpress_smsir-widget.php";
@@ -286,7 +286,7 @@ add_action('admin_enqueue_scripts', 'Wordpress_Smsir_pointer');
 function Wordpress_Smsir_Sendsms_page()
 {
     if (!current_user_can('manage_options')) {
-        wp_die(__('You do not have sufficient permissions to access this page.'));
+        wp_die(__('You do not have sufficient permissions to access this page'));
     }
     global $wpdb, $table_prefix;
 
@@ -306,7 +306,7 @@ function Wordpress_Smsir_Sendsms_page()
 function Wordpress_Smsir_Posted_Sms_page()
 {
     if (!current_user_can('manage_options')) {
-        wp_die(__('You do not have sufficient permissions to access this page.'));
+        wp_die(__('You do not have sufficient permissions to access this page'));
     }
     global $wpdb, $table_prefix;
 
@@ -343,7 +343,7 @@ function Wordpress_Smsir_Posted_Sms_page()
 function Wordpress_Smsir_Verifications_Sms_page()
 {
     if (!current_user_can('manage_options')) {
-        wp_die(__('You do not have sufficient permissions to access this page.'));
+        wp_die(__('You do not have sufficient permissions to access this page'));
     }
     global $wpdb, $table_prefix;
 
@@ -362,7 +362,7 @@ function Wordpress_Smsir_Verifications_Sms_page()
 function Wordpress_Smsir_Subscribes_page()
 {
     if (!current_user_can('manage_options')) {
-        wp_die(__('You do not have sufficient permissions to access this page.'));
+        wp_die(__('You do not have sufficient permissions to access this page'));
     }
     global $wpdb, $table_prefix, $date;
 
@@ -698,7 +698,7 @@ function Wordpress_Smsir_Setting_page()
     global $sms;
 
     if (!current_user_can('manage_options')) {
-        wp_die(__('You do not have sufficient permissions to access this page.'));
+        wp_die(__('You do not have sufficient permissions to access this page'));
 
         settings_fields('wordpress_smsir_options');
     }
@@ -746,7 +746,7 @@ function Wordpress_Smsir_Setting_page()
 function Wordpress_Smsir_About_page()
 {
     if (!current_user_can('manage_options')) {
-        wp_die(__('You do not have sufficient permissions to access this page.'));
+        wp_die(__('You do not have sufficient permissions to access this page'));
     }
     include_once dirname(__FILE__) . "/includes/templates/settings/about.php";
 }
